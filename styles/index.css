@@ -1,0 +1,73 @@
+/*CSS made by IPD-23 Davood Arzaghi-Haris, Tingting Song, Vladimir Tocari  */
+body{
+    background-image: url(../images/rsz_1gamepic.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    margin: 10% 50% 1% 35%;
+    background-color: #6FC;
+    border-radius: 15px;
+    font-size: 25px;
+    border: 1px solid #7d0044;
+    opacity: .8;
+    box-shadow: 0 0 10px #90c;
+    width: 300px;
+    text-align: center;
+}
+h1:hover, div:hover{
+    transform: scale(1);
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+div{
+    margin: 1% 50% 25% 35%;
+    background-color: #6FC;
+    border-radius: 15px;
+    font-size: 25px;
+    border: 1px solid #7d0044;
+    opacity: .8;
+    box-shadow: 0 0 10px #90c;
+    width: 300px;
+    text-align: center; 
+    transition: width 2s, height 2s, transform 2s;
+}
+div:hover{
+    width: 300px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+.makeSmallerDivInstructions{
+   font-size: xx-small;
+}
+.makeSmallerDivInstructions:hover{
+    font-size: .5em;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+h1 {
+    position: relative;
+    animation-name: FallDown;
+    animation-duration: 4s;
+}
+  
+  @keyframes FallDown {
+    0%   {margin: 0 50% 1% 35%;}
+    100% {margin: 10% 50% 1% 35%;}
+}
+footer{
+    font-weight: bolder;
+    padding-bottom: 20px;
+    font-size: 1em;
+    float: right;
+}
